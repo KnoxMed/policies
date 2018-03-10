@@ -2,35 +2,14 @@
 
 This policy establishes the scope, objectives, and procedures of Aluna's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
 
-## 4.1 Applicable Standards
+## 4.1 Risk Management Policies
 
-### 4.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 03.a - Risk Management Program Development
-* 03.b - Performing Risk Assessments
-* 03.c - Risk Mitigation
-
-### 4.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(1)(ii)(A) - HIPAA Security Rule Risk Analysis
-* 164.308(a)(1)(ii)(B) - HIPAA Security Rule Risk Management
-* 164.308(a)(8) - HIPAA Security Rule Evaluation
-
-## 4.2 Risk Management Policies
-
-1. It is the policy of Aluna to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Aluna's information security program.
-2. Risk analysis and risk management are recognized as important components of Aluna's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
-   1. Risk assessments are done throughout product life cycles:
-   2. Before the integration of new system technologies and before changes are made to Aluna physical safeguards; and
-      * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the Aluna Platform.
-   3. While making changes to Aluna physical equipment and facilities that introduce new, untested configurations.
-   4. Aluna performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
-3. Aluna implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
-   1. Ensure the confidentiality, integrity, and availability of all ePHI Aluna receives, maintains, processes, and/or transmits for its Customers;
-   2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;
-   3. Protect against any reasonably anticipated uses or disclosures of Customer ePHI that are not permitted or required; and
+1. It is the policy of Aluna to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of personal information (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Aluna's information security program.
+2. Aluna implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
+   1. Ensure the confidentiality, integrity, and availability of all personal information Aluna receives, maintains, processes, and/or transmits for its Customers;
+   2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer personal information;
+   3. Protect against any reasonably anticipated uses or disclosures of Customer personal information that are not permitted or required; and
    4. Ensure compliance by all workforce members.
-4. Any risk remaining (residual) after other risk controls have been applied, requires sign off by the senior management and Aluna's Security Officer.
 5. All Aluna workforce members are expected to fully cooperate with all persons charged with doing risk management work, including contractors and audit personnel. Any workforce member that violates this policy will be subject to disciplinary action based on the severity of the violation, as outlined in the Aluna Roles Policy.
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Aluna's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
@@ -42,51 +21,11 @@ This policy establishes the scope, objectives, and procedures of Aluna's informa
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
 9. The Risk Management Procedure is monitored on a quarterly basis using the Quality Manageement System reporting to assess compliance with above policy.
 
-## 4.3 Risk Management Procedures
+## 4.2 Risk Management Procedures
 
-### 4.3.1 Risk Assessment
+### 4.2.2 Risk Mitigation
 
-The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
-
-* Step 1. System Characterization
-  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, the Aluna Platform boundaries are identified.
-  * Output - Characterization of the Aluna Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
-
-* Step 2. Threat Identification
-  * Potential threats (the potential for threat-sources to successfully exercise a particular vulnerability) are identified and documented. All potential threat-sources from historical incidents and data from intelligence agencies, the government, etc., are reviewed to help generate a list of potential threats.
-  * Output - A threat list containing a list of threat-sources that could exploit Platform vulnerabilities.
-
-* Step 3. Vulnerability Identification
-  * Develop a list of technical and non-technical Platform vulnerabilities that could be exploited or triggered by potential threat-sources. Vulnerabilities can range from incomplete or conflicting policies that govern an organization's computer usage to insufficient safeguards to protect facilities that house computer equipment to any number of software, hardware, or other deficiencies that comprise an organization's computer network.
-  * Output - A list of the Platform vulnerabilities (observations) that could be exercised by potential threat-sources.
-
-* Step 4. Control Analysis
-  * Document and assess the effectiveness of technical and non-technical controls that have been or will be implemented by Aluna to minimize or eliminate the likelihood / probability of a threat-source exploiting a Platform vulnerability.
-  * Output - List of current or planned controls (policies, procedures, training, technical mechanisms, insurance, etc.) used for the Platform to mitigate the likelihood of a vulnerability being exercised and reduce the impact of such an adverse event.
-
-* Step 5. Likelihood Determination
-  * Determine the overall likelihood rating that indicates the probability that a vulnerability could be exploited by a threat-source given the existing or planned security controls.
-  * Output - Likelihood rating of low (.1), medium (.5), or high (1). Refer to the NIST SP 800-30 definitions of low, medium, and high.
-
-* Step 6. Impact Analysis
-  * Determine the level of adverse impact that would result from a threat successfully exploiting a vulnerability. Factors of the data and systems to consider should include the importance to Aluna's mission; sensitivity and criticality (value or importance); costs associated; loss of confidentiality, integrity, and availability of systems and data.
-  * Output - Magnitude of impact rating of low (10), medium (50), or high (100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
-
-* Step 7. Risk Determination
-  * Establish a risk level. By multiplying the ratings from the likelihood determination and impact analysis, a risk level is determined. This represents the degree or level of risk to which an IT system, facility, or procedure might be exposed if a given vulnerability were exercised. The risk rating also presents actions that senior management must take for each risk level.
-  * Output - Risk level of low (1-10), medium (>10-50) or high (>50-100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
-
-* Step 8. Control Recommendations
-  * Identify controls that could reduce or eliminate the identified risks, as appropriate to the organization's operations to an acceptable level. Factors to consider when developing controls may include effectiveness of recommended options (i.e., system compatibility), legislation and regulation, organizational policy, operational impact, and safety and reliability. Control recommendations provide input to the risk mitigation process, during which the recommended procedural and technical security controls are evaluated, prioritized, and implemented.
-  * Output - Recommendation of control(s) and alternative solutions to mitigate risk.
-
-* Step 9. Results Documentation
-  * Results of the risk assessment are documented in an official report, spreadsheet, or briefing and provided to senior management to make decisions on policy, procedure, budget, and Platform operational and management changes.
-  * Output - A risk assessment report that describes the threats and vulnerabilities, measures the risk, and provides recommendations for control implementation.
-
-### 4.3.2 Risk Mitigation
-
-Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Aluna Platform ePHI. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
+Risk mitigation involves prioritizing, evaluating, and implementing the appropriate risk-reducing controls recommended from the Risk Assessment process to ensure the confidentiality, integrity and availability of Aluna Platform data. Determination of appropriate controls to reduce risk is dependent upon the risk tolerance of the organization consistent with its goals and mission.
 
 * Step 1. Prioritize Actions
   * Using results from Step 7 of the Risk Assessment, sort the threat and vulnerability pairs according to their risk-levels in descending order. This establishes a prioritized list of actions needing to be taken, with the pairs at the top of the list getting/requiring the most immediate attention and top priority in allocating resources
@@ -101,7 +40,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Output - Documented cost-benefit analysis of either implementing or not implementing each specific control
 
 * Step 4. Select Control(s)
-  * Taking into account the information and results from previous steps, Aluna's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to the confidentiality, integrity, and availability of ePHI. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
+  * Taking into account the information and results from previous steps, Aluna's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to the confidentiality, integrity, and availability of personal information. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
   * Output - Selected control(s)
 
 * Step 5. Assign Responsibility

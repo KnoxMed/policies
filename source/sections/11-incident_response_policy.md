@@ -4,7 +4,6 @@ Aluna implements an information security incident response process to consistent
 
 The incident response process addresses:
 
-* Continuous monitoring of threats through intrusion detection systems (IDS) and other monitoring applications;
 * Establishment of an information security incident response team;
 * Establishment of procedures to respond to media inquiries;
 * Establishment of clear procedures for identifying, responding, assessing, analyzing, and follow-up of information security incidents;
@@ -13,19 +12,7 @@ The incident response process addresses:
 
 *Note:* These policies were adapted from work by the [HIPAA Collaborative of Wisconsin Security Networking Group](http://hipaacow.org/wp-content/uploads/2015/02/HCR-Security-Incident-Response-FINAL-12.18.14.doc). Refer to the linked document for additional copyright information.
 
-## 11.1 Applicable Standards
-
-### 11.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 11.a - Reporting Information Security Events
-* 11.c - Responsibilities and Procedures
-
-### 11.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(5)(i) - Security Awareness and Training
-* 164.308(a)(6) - Security Incident Procedures
-
-## 11.2 Incident Management Policies
+## 11.1 Incident Management Policies
 
 The Aluna incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
 
@@ -40,18 +27,17 @@ Aluna's incident response classifies security-related events into the following 
   * Audit log alerts indicated several failed login attempts.
   * Suspicious emails targeting specific Aluna staff members with administrative access to production systems.
 * **Indications** - A sign that an incident may have occurred or may be occurring at the present time. Examples:
-  * IDS alerts for modified system files or unusual system accesses.
   * Antivirus alerts for infected files.
   * Excessive network traffic directed at unexpected geographic locations.
 * **Incidents** - A violation of computer security policies or acceptable use policies, often resulting in data breaches. Examples:
-  * Unauthorized disclosure of ePHI.
-  * Unauthorized change or destruction of ePHI.
+  * Unauthorized disclosure of personal information.
+  * Unauthorized change or destruction of personal information.
   * A data breach accomplished by an internal or external entity.
   * A Denial-of-Service (DoS) attack causing a critical service to become unreachable.
 
 Aluna employees must report any unauthorized or suspicious activity seen on production systems or associated with related communication systems (such as email or Slack). In practice this means keeping an eye out for security events, and letting the Security Officer know about any observed precursors or indications as soon as they are discovered.
 
-### 11.2.1 Identification Phase
+### 11.1.1 Identification Phase
 
 1. Immediately upon observation Aluna members report suspected and known Events, Precursors, Indications, and Incidents in one of the following ways:
    1. Direct report to management, the Security Officer, Privacy Officer, or other;
@@ -60,8 +46,7 @@ Aluna employees must report any unauthorized or suspicious activity seen on prod
    4. Online incident response form located [here](https://docs.google.com/a/catalyze.io/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
    5. Secure Chat.
    6. Anonymously through workforce members desired channels.
-2. The individual receiving the report facilitates completion of an [Incident Identification form](sections/IH-Identification.pdf) and notifies the Security Officer (if not already done).
-3. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
+2. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
    1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
       1. Non-Technical Event (minor infringement): the Security Officer completes a [SIR Form](sections/sir-form.doc) and investigates the incident.
       2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
@@ -75,7 +60,7 @@ Aluna employees must report any unauthorized or suspicious activity seen on prod
 3. The Security Officer, Privacy Officer, or Aluna representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 4. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to Aluna and potentially external.
 
-### 11.2.2 Containment Phase (Technical)
+### 11.1.2 Containment Phase (Technical)
 
 In this Phase, Aluna's IT department attempts to contain the security incident. It is extremely important to take detailed notes during the security incident response process. This provides that the evidence gathered during the security incident can be used successfully during prosecution, if appropriate.
 
@@ -96,7 +81,7 @@ In this Phase, Aluna's IT department attempts to contain the security incident. 
 4. Continuously apprise Senior Management of progress.
 5. Continue to notify affected Customers and Partners with relevant updates as needed
 
-### 11.2.3 Eradication Phase (Technical)
+### 11.1.3 Eradication Phase (Technical)
 
 The Eradication Phase represents the SIRT's effort to remove the cause, and the resulting security exposures, that are now on the affected system(s).
 
@@ -113,7 +98,7 @@ The Eradication Phase represents the SIRT's effort to remove the cause, and the 
 7. Continue to notify affected Customers and Partners with relevant updates as needed.
 8. Move to Phase IV, Recovery.
 
-### 11.2.4 Recovery Phase (Technical)
+### 11.1.4 Recovery Phase (Technical)
 
 The Recovery Phase represents the SIRT's effort to restore the affected system(s) back to operation after the resulting security exposures, if any, have been corrected.
 
@@ -127,7 +112,7 @@ The Recovery Phase represents the SIRT's effort to restore the affected system(s
    7. Continue to notify affected Customers and Partners with relevant updates as needed.
    8. Move to Phase V, Follow-up.
 
-### 11.2.5 Follow-up Phase (Technical and Non-Technical)
+### 11.1.5 Follow-up Phase (Technical and Non-Technical)
 
 The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
 
@@ -139,11 +124,11 @@ The Follow-up Phase represents the review of the security incident to look for "
    4. Carry out recommendations approved by Senior Management; sufficient budget, time and resources should be committed to this activity.
    5. Close the security incident.
 
-### 11.2.6 Periodic Evaluation
+### 11.1.6 Periodic Evaluation
 
 It is important to note that the processes surrounding security incident response should be periodically reviewed and evaluated for effectiveness. This also involves appropriate training of resources expected to respond to security incidents, as well as the training of the general population regarding Aluna's expectation for them, relative to security responsibilities. The incident response plan is tested annually.
 
-## 11.3 Security Incident Response Team (SIRT)
+## 11.2 Security Incident Response Team (SIRT)
 
 Current members of the Aluna SIRT:
 

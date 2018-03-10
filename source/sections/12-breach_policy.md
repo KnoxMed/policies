@@ -8,27 +8,13 @@ The American Recovery and Reinvestment Act of 2009 (ARRA) was signed into law on
 
 In the case of a breach, Aluna shall notify all affected Customers. It is the responsibility of the Customers to notify affected individuals.
 
-## 12.1 Applicable Standards
+## 12.1 Aluna Breach Policy
 
-### 12.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 11.a Reporting Information Security Events
-* 11.c Responsibilities and Procedures
-
-### 12.1.2 Applicable Standards from the HIPAA Security Rule
-
-* Security Incident Procedures - 164.308(a)(6)(i)
-* HITECH Notification in the Case of Breach - 13402(a) and 13402(b)
-* HITECH Timeliness of Notification - 13402(d)(1)
-* HITECH Content of Notification - 13402(f)(1)
-
-## 12.2 Aluna Breach Policy
-
-1. Discovery of Breach: A breach of ePHI shall be treated as "discovered" as of the first day on which such breach is known to the organization, or, by exercising reasonable diligence would have been known to Aluna (includes breaches by the organization's Customers, Partners, or subcontractors). Aluna shall be deemed to have knowledge of a breach if such breach is known or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or Partner of the organization. Following the discovery of a potential breach, the organization shall begin an investigation (see organizational policies for security incident response and/or risk management incident response) immediately, conduct a risk assessment, and based on the results of the risk assessment, begin the process to notify each Customer affected by the breach. Aluna shall also begin the process of determining what external notifications are required or should be made (e.g., Secretary of Department of Health & Human Services (HHS), media outlets, law enforcement officials, etc.)
-2. Breach Investigation: The Aluna Security Officer shall name an individual to act as the investigator of the breach (e.g., privacy officer, security officer, risk manager, etc.). The investigator shall be responsible for the management of the breach investigation, completion of a risk assessment, and coordinating with others in the organization as appropriate (e.g., administration, security incident response team, human resources, risk management, public relations, legal counsel, etc.) The investigator shall be the key facilitator for all breach notification processes to the appropriate entities (e.g., HHS, media, law enforcement officials, etc.). All documentation related to the breach investigation, including the risk assessment, shall be retained for a minimum of six years. A template breach log is located [here](sections/breach.log.pdf).
-3. Risk Assessment: For an acquisition, access, use or disclosure of ePHI to constitute a breach, it must constitute a violation of the HIPAA Privacy Rule. A use or disclosure of ePHI that is incident to an otherwise permissible use or disclosure and occurs despite reasonable safeguards and proper minimum necessary procedures would not be a violation of the Privacy Rule and would not qualify as a potential breach. To determine if an impermissible use or disclosure of ePHI constitutes a breach and requires further notification, the organization will need to perform a risk assessment to determine if there is significant risk of harm to the individual as a result of the impermissible use or disclosure. The organization shall document the risk assessment as part of the investigation in the incident report form noting the outcome of the risk assessment process. The organization has the burden of proof for demonstrating that all notifications to appropriate Customers or that the use or disclosure did not constitute a breach. Based on the outcome of the risk assessment, the organization will determine the need to move forward with breach notification. The risk assessment and the supporting documentation shall be fact specific and address:
+1. Discovery of Breach: A breach of personal iformation shall be treated as "discovered" as of the first day on which such breach is known to the organization, or, by exercising reasonable diligence would have been known to Aluna (includes breaches by the organization's Customers, Partners, or subcontractors). Aluna shall be deemed to have knowledge of a breach if such breach is known or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or Partner of the organization. Following the discovery of a potential breach, the organization shall begin an investigation (see organizational policies for security incident response and/or risk management incident response) immediately, conduct a risk assessment, and based on the results of the risk assessment, begin the process to notify each Customer affected by the breach. Aluna shall also begin the process of determining what external notifications are required or should be made. 
+2. Breach Investigation: The Aluna Security Officer shall name an individual to act as the investigator of the breach (e.g., privacy officer, security officer, risk manager, etc.). The investigator shall be responsible for the management of the breach investigation, completion of a risk assessment, and coordinating with others in the organization as appropriate (e.g., administration, security incident response team, human resources, risk management, public relations, legal counsel, etc.) The investigator shall be the key facilitator for all breach notification processes to the appropriate entities. All documentation related to the breach investigation, including the risk assessment, shall be retained for a minimum of six years. A template breach log is located [here](sections/breach.log.pdf).
+3. Risk Assessment:  To determine if an impermissible use or disclosure of personal information constitutes a breach and requires further notification, the organization will need to perform a risk assessment to determine if there is significant risk of harm to the individual as a result of the impermissible use or disclosure. The organization shall document the risk assessment as part of the investigation in the incident report form noting the outcome of the risk assessment process. The organization has the burden of proof for demonstrating that all notifications to appropriate Customers or that the use or disclosure did not constitute a breach. Based on the outcome of the risk assessment, the organization will determine the need to move forward with breach notification. The risk assessment and the supporting documentation shall be fact specific and address:
    * Consideration of who impermissibly used or to whom the information was impermissibly disclosed;
-   * The type and amount of ePHI involved;
+   * The type and amount of personal information involved;
    * The cause of the breach, and the entity responsible for the breach, either Customer, Aluna, or Partner.
    * The potential for significant risk of financial, reputational, or other harm.
 4. Timeliness of Notification: Upon discovery of a breach, notice shall be made to the affected Aluna Customers no later than 4 hours after the discovery of the breach. It is the responsibility of the organization to demonstrate that all notifications were made as required, including evidence demonstrating the necessity of delay.
@@ -42,27 +28,17 @@ In the case of a breach, Aluna shall notify all affected Customers. It is the re
    * A brief description of what Aluna is doing to investigate the breach, to mitigate harm to individuals and Customers, and to protect against further breaches.
    * Contact procedures for individuals to ask questions or learn additional information, which may include a toll-free telephone number, an e-mail address, a web site, or postal address.
 7. Methods of Notification: Aluna Customers will be notified via email and phone within the timeframe for reporting breaches, as outlined above.
-8. Maintenance of Breach Information/Log: As described above and in addition to the reports created for each incident, Aluna shall maintain a process to record or log all breaches of unsecured ePHI regardless of the number of records and Customers affected. The following information should be collected/logged for each breach (see sample Breach Notification Log):
+8. Maintenance of Breach Information/Log: As described above and in addition to the reports created for each incident, Aluna shall maintain a process to record or log all breaches of unsecured personal information regardless of the number of records and Customers affected. The following information should be collected/logged for each breach (see sample Breach Notification Log):
    * A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
    * A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
    * A description of the action taken with regard to notification of patients regarding the breach.
    * Resolution steps taken to mitigate the breach and prevent future occurrences.
-10. Workforce Training: Aluna shall train all members of its workforce on the policies and procedures with respect to ePHI as necessary and appropriate for the members to carry out their job responsibilities. Workforce members shall also be trained as to how to identify and report breaches within the organization.
+10. Workforce Training: Aluna shall train all members of its workforce on the policies and procedures with respect to personal information as necessary and appropriate for the members to carry out their job responsibilities. Workforce members shall also be trained as to how to identify and report breaches within the organization.
 11. Complaints: Aluna must provide a process for individuals to make complaints concerning the organization's patient privacy policies and procedures or its compliance with such policies and procedures.
 12. Sanctions: The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
 13. Retaliation/Waiver: Aluna may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
 
-## 12.3 Aluna Platform Customer Responsibilities
-
-1. The Aluna Customer that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured ePHI shall, without unreasonable delay and in no case later than 60 calendar days after discovery of a breach, notify Aluna of such breach. The Customer shall provide Aluna with the following information:
-   * A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
-   * A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
-   * A description of the action taken with regard to notification of patients regarding the breach.
-   * Resolution steps taken to mitigate the breach and prevent future occurrences.
-2. Notice to Media: Aluna Customers are responsible for providing notice to prominent media outlets at the Customer's discretion.
-3. Notice to Secretary of HHS: Aluna Customers are responsible for providing notice to the Secretary of HHS at the Customer's discretion.
-
-## 12.4 Sample Letter to Customers in Case of Breach
+## 12.3 Sample Letter to Customers in Case of Breach
 
 [Date]
 
@@ -95,6 +71,6 @@ Sincerely,
 
 
 Charvi Shetty
-Co-founder - KNOX Medical Diagnostics, Inc.  
-charvi@aluna.io  
+Co-founder - KNOX Medical Diagnostics, Inc.
+charvi@aluna.io
 415-320-0690

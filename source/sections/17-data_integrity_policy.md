@@ -4,49 +4,23 @@ Aluna takes data integrity very seriously. As stewards and partners of Aluna Cus
 
 Production systems that create, receive, store, or transmit Customer data (hereafter "Production Systems") must follow the guidelines described in this section.
 
-## 17.1 Applicable Standards
-
-### 17.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-* 10.b - Input Data Validation
-
-### 17.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.308(a)(8) - Evaluation
-
-## 17.2 Disabling Non-Essential Services
+## 17.1 Disabling Non-Essential Services
 
 1. All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
 
-## 17.3 Monitoring Log-in Attempts
+## 17.2 Monitoring Log-in Attempts
 
 1. All access to Production Systems must be logged. This is done following the Aluna Auditing Policy.
 
-## 17.4 Prevention of Malware on Production Systems
-
-1. All Production Systems must have OSSEC running, and set to scan system every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
-2. Virus scanning software is run on all Production Systems for anti-virus protection.
-   * Hosts are scanned daily for malicious binaries in critical system paths.
-   * The malware signature database is checked hourly and automatically updated if new signatures are available.
-   * Logs of virus scans are maintained according to the requirements outlined in [§8.6](#8.6-audit-log-security-controls-and-backup).
-3. All Production Systems are to only be used for Aluna business needs.
-
-## 17.5 Patch Management
+## 17.3 Patch Management
 
 1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-    * In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though Aluna will, at it's own discretion, notify and recommend updates to Customer systems.
-2. Administrators subscribe to mailing lists to ensure that they are using current versions of all Aluna-managed software on Production Systems.
 
-## 17.6 Intrusion Detection and Vulnerability Scanning
-
-1. Production systems are monitored using IDS systems. Suspicious activity is logged and alerts are generated.
-2. Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
-
-## 17.7 Production System Security
+## 17.6 Production System Security
 
 1. System, network, and server security is managed and maintained by the Security Officer in conjunction with the Dev Ops team.
 2. Up to date system lists and architecture diagrams are kept for all production environments.
-3. Access to Production Systems is controlled using centralized tools and two-factor authentication.
+3. Access to Production Systems is controlled using centralized tools.
 
 ## 17.8 Production Data Security
 

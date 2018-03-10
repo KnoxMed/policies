@@ -2,26 +2,10 @@
 
 Aluna makes every effort to assure all 3rd party organizations are compliant and do not compromise the integrity, security, and privacy of Aluna or Aluna Customer data. 3rd Parties include Customers, Partners, Subcontractors, and Contracted Developers.
 
-## 21.1 Applicable Standards
+## 21.1 Policies to Assure 3rd Parties Support Aluna Compliance
 
-### 21.1.1 Applicable Standards from the HITRUST Common Security Framework
-
-*  05.i - Identification of Risks Related to External Parties
-*  05.k - Addressing Security in Third Party Agreements
-*  09.e - Service Delivery
-*  09.f - Monitoring and Review of Third Party Services
-*  09.g - Managing Changes to Third Party Services
-*  10.1 - Outsourced Software Development
-
-### 21.1.2 Applicable Standards from the HIPAA Security Rule
-
-* 164.314(a)(1)(i) - Business Associate Contracts or Other Arrangements
-
-## 21.2 Policies to Assure 3rd Parties Support Aluna Compliance
-
-1. Aluna does not allow 3rd party access to production systems containing ePHI.
+1. Aluna does not allow 3rd party access to production systems containing personal information.
 2. All connections and data in transit between the Aluna Platform and 3rd parties are encrypted end to end.
-3. A standard business associate agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization's security policies. Additionally, responsibility is assigned in these agreements.
 4. Aluna has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
    * Subcontractors must coordinate, manage, and communicate any changes to services provided to Aluna.
    * Changes to 3rd party services are classified as configuration management changes and thus are subject to the policies and procedures described in [§9](#9.-configuration-management-policy); substantial changes to services provided by 3rd parties will invoke a Risk Assessment as described in [§4.2](#4.2-risk-management-policies).
@@ -32,7 +16,7 @@ Aluna makes every effort to assure all 3rd party organizations are compliant and
    * The list of current Partners and Subcontractors is maintained by the Aluna Privacy Officer, includes details on all provided services (along with contact information), and is recorded in [§1.4](#1.4-aluna-organizational-concepts).
    * The annual review of Partners and Subcontractors is conducted as a part of the security, compliance, and SLA review referenced below.
 8. Aluna assesses security, compliance, and SLA requirements and considerations with all Partners and Subcontractors. This includes annual assessment of SOC2 Reports for all Aluna infrastructure partners.
-   * Aluna leverages recurring calendar invites to assure reviews of all 3rd party services are performed annually. These reviews are performed by the Aluna Security Officer and Privacy Officer. The process for reviewing 3rd party services is outlined below:
+   *The process for reviewing 3rd party services is outlined below:
      1. The Security Officer initiates the SLA review by creating an Issue in the Aluna Quality Management System.
      2. The Security Officer, or Privacy Officer, is assigned to review the SLA and performance of 3rd parties. The list of current 3rd parties, including contact information, is also reviewed to assure it is up to date and complete.
      3. SLA, security, and compliance performance is documented in the Issue.
